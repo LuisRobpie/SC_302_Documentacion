@@ -54,3 +54,76 @@ function factorial(n) {
     }
     return resultado;
 } 
+// Desarrollador 3 
+
+function maximo(numeros) { 
+
+    let max = numeros[0]; 
+
+    for (let i = 1; i < numeros.length; i++) { 
+
+        if (numeros[i] > max) { 
+
+            max = numeros[i]; 
+
+        } 
+
+    } 
+
+    return max; 
+
+} 
+
+// Desarrollador 2 
+
+function minimo(numeros) { 
+
+    let min = numeros[0]; 
+
+    for (let i = 1; i < numeros.length; i++) { 
+
+        if (numeros[i] < min) { 
+
+            min = numeros[i]; 
+
+        } 
+
+    } 
+
+    return min; 
+
+} 
+
+ 
+
+// Desarrollador 3 
+
+ 
+
+console.log(suma(2, 3));  
+
+ 
+
+console.log(resta(5, 3));  
+
+ 
+
+console.log(multiplicacion(2, 3)); 
+
+ 
+
+// Desarrollador 2 
+
+ 
+
+console.log(division(6, 3)); 
+
+ 
+
+console.log(potencia(2, 3)); 
+
+ 
+
+console.log(raizCuadrada(9)); 
+
+ 
